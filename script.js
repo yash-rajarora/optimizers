@@ -1,10 +1,10 @@
-const indicator = document.querySelector(".scroll-indicator")    
+// $("#search-icon").click(function() {
+//   $(".nav").toggleClass("search");
+//   $(".nav").toggleClass("no-search");
+//   $(".search-input").toggleClass("search-active");
+// });
 
-const scroll = () => {
-  const height = document.documentElement.offsetHeight
-  const mx = document.documentElement.scrollHeight - document.documentElement.clientHeight
-  const perc = document.documentElement.scrollTop * 100  / mx
-  indicator.style.width = perc + "%"
-}
-
-document.addEventListener("scroll", scroll)      
+// $('.menu-toggle').click(function(){
+//    $(".nav").toggleClass("mobile-nav");
+//    $(this).toggleClass("is-active");
+// });

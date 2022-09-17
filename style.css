@@ -75,6 +75,18 @@ main {
   background-position: center;
 }
 
+.card-three {
+  background-image: url("img/tech.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card-four {
+  background-image: url("img/photograph.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
 /* top */
 .top {
   display: flex;

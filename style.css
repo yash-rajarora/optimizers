@@ -344,4 +344,61 @@ input {
 .topic-title{
   font-size: 38px;
   font-weight: 500;
+<<<<<<< Updated upstream
+=======
+}
+.banner-a{
+width:100%;
+height: 100vh;
+background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(img/home.webp);
+background-size: cover;   
+background-position: center;
+}
+
+#heading{
+  font-size: 500%;
+  padding-bottom: 30px;
+}
+.content-b{
+  width:100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-20%);
+  text-align: center;
+  color: #fff;
+}
+.page-headi button{
+  width: 200px;
+  padding: 15px;
+  text-align: center;
+  margin: 20px 30px;
+  font-weight: bold;
+  border-radius: 25px;
+  border: 2px solid #3ee2d2;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.page-headi span{
+  background-color: #1e7068;
+  height: 100%;
+  width: 0;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.page-headi button:hover span{
+  width: 100%;
+}
+.page-headi button:hover{
+  border: none;
+}
+#container-box:hover{
+  box-shadow:  1px 7px 7px rgba(0,0,0,0.15);
+  transition: box-shadow 0.3s ease-in-out;
+>>>>>>> Stashed changes
 }

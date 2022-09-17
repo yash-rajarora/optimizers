@@ -63,14 +63,26 @@ main {
 }
 
 .card-one {
-  background-image: url("https://picsum.photos/id/89/500/300");
+  background-image: url("img/moon.jpg");
   background-size: cover;
   background-position-x: center;
   background-position-y: bottom;
 }
 
 .card-two {
-  background-image: url("https://picsum.photos/id/715/500/300");
+  background-image: url("img/elements.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card-three {
+  background-image: url("img/saturn.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card-four {
+  background-image: url("img/ohms\ law.png");
   background-size: cover;
   background-position: center;
 }

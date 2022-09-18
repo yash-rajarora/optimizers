@@ -7,30 +7,41 @@
     <title>Document</title>
     <link href="style-editor.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <style> 
+        input[type=button], input[type=submit], input[type=reset] {
+          background-color: #59a4e9;
+          border: none;
+          color: white;
+          padding: 16px 32px;
+          text-decoration: none;
+          margin: 4px 2px;`
+          cursor: pointer;
+          align-self: center;
+        }
+    </style>
 </head>
 <body>
     <div class="page-wrapper">
-    <div class="nav-wrapper">
-     <div class="grad-bar"></div>
-     <nav class="navbar">
-       <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/Bluestar_%28bus_company%29_logo.svg/1280px-Bluestar_%28bus_company%29_logo.svg.png" alt="Company Logo">
-       <div class="menu-toggle" id="mobile-menu">
-         <span class="bar"></span>
-         <span class="bar"></span>
-         <span class="bar"></span>
+        <div class="nav-wrapper">
+         <div class="grad-bar"></div>
+         <nav class="navbar">
+           <img src="img/Group 321.png" alt="Group 321">
+           <div class="menu-toggle" id="mobile-menu">
+             <span class="bar"></span>
+             <span class="bar"></span>
+             <span class="bar"></span>
+           </div>
+           <ul class="nav no-search">
+             <li class="nav-item"><a href="#">Home</a></li>
+             <li class="nav-item"><a href="#">About</a></li>
+             <li class="nav-item"><a href="#">Work</a></li>
+             <li class="nav-item"><a href="#">Careers</a></li>
+             <li class="nav-item"><a href="#">Contact Us</a></li>
+             <li class="nav-item"></li>
+           </ul>
+         </nav>
+         </div>
        </div>
-       <ul class="nav no-search">
-         <li class="nav-item"><a href="#">Home</a></li>
-         <li class="nav-item"><a href="#">About</a></li>
-         <li class="nav-item"><a href="#">Work</a></li>
-         <li class="nav-item"><a href="#">Careers</a></li>
-         <li class="nav-item"><a href="#">Contact Us</a></li>
-         <li class="nav-item"></li>
-       </ul>
-     </nav>
-     </div>
-   </div>
-
     <div class="main-content">
         <div class="text-header">
             <button type="button" class="btn" data-element="bold">
@@ -67,8 +78,11 @@
                 <i class="fa fa-image"></i>
             </button>
         </div>
-    <div class="content" contenteditable="true"></div>
-    </div> 
+    <div class="content" contenteditable="true">
+    </div>
+    </div>
+    <center><div><input type="submit" value="Submit" id="submit-btn"></div></center>
+
 <script src="script-editor.js"></script>
 <script src="https://use.fontawesome.com/a31a3f8384.js"></script>    
 </body>

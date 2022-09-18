@@ -69,7 +69,8 @@
     gap: 10px;
     text-decoration: none;
     font-family: poppins;
-    font-weight: 500;
+    font-size: 72px;
+    font-weight: 1000;
     color: white;
   }
   
@@ -126,7 +127,7 @@
     gap: 10px;
     text-decoration: none;
     font-family: poppins;
-    font-weight: 500;
+    font-weight: 1000;
     color: black;
   }
   
@@ -175,6 +176,10 @@
   }
   
   body{
-    background: rgb(238,174,202);
-    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(177,207,242,1) 100%);
-  }
+    background: rgb(149,226,210);
+    background: linear-gradient(95deg, rgba(149,226,210,1) 0%, rgba(156,237,224,1) 100%, rgba(158,240,228,1) 100%, rgba(220,236,232,1) 100%);  }
+#submit-btn{
+    transform: translateX(-10%) translateY(700%);
+    border-radius: 10px;
+    cursor: pointer;
+}
